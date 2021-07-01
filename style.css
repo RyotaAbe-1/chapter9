@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-contents {
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.color-orange {
+  background-color: #ff9a4b;
+  height: 50px;
+}
+.color-gray {
+  background-color: #aaaaaa;
+  height: 50px;
+}
+
+.box {
+  width: 300px;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.step {
+  position: absolute;
+  background-color: #ff9a4b;
+  color: white;
+}
+
+.section {
+  padding: 10px 10px;
+}
+
+.box:nth-child(2) {
+  margin: 0 30px;
+}
+
+.picture1 {
+  height: 150px;
+  margin-bottom: 15px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+
+}
+
+.picture2 {
+  height: 150px;
+  margin-bottom: 15px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+
+}
+
+.picture3 {
+  height: 150px;
+  margin-bottom: 15px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+
+}
+
+.box-title {
+  margin-bottom: 5px;
+}
+
+.text {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
+  .main-contents {
+    width: 100%;
+    display: block;
+  }
+  .box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .box:nth-child(2) {
+    margin: 20px auto;
+  }
+
+}
